@@ -5,7 +5,9 @@ body {
   font-weight: 400;
   font-size: 50px
 }
-
+h1 {
+  width: 384px;
+}
 
 button {
   background-color: rgb(54, 255, 47);
@@ -21,4 +23,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+button:hover{
+  cursor: pointer;
 }
